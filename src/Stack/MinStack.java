@@ -5,6 +5,9 @@ import java.util.NoSuchElementException;
 /**
  * Created by Xuan on 2017/11/23.
  * 第155题 构造一个Stack,可以push,pop,输出top,以及最小值（在常数时间内）。
+ *
+ * 重点：在O(1)内输出最小值。
+ * 思路：每一个node都存储当前节点以前的最小值，扩展Node数据结构。
  */
 public class MinStack {
 
