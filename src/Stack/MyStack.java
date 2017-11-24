@@ -42,5 +42,7 @@ public class MyStack {
     }
 
     public static void main(String[] args) {
+        MyStack myStack = new MyStack();
+        myStack.pop();
     }
 }
